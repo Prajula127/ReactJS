@@ -1,0 +1,35 @@
+/* Write your code here. */
+*box-sizing {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.league-container {
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.heading {
+  color: #f8fafc;
+  font-size: 28px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+.image {
+  height: 150px;
+  width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 36px;
+  }
+  .image {
+    width: 300px;
+    height: 300px;
+  }
+}

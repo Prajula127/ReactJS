@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+.speed-container {
+  background-color: #07080c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.heading {
+  color: #ffffff;
+  font-size: 36px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.image {
+  height: 120px;
+  width: 50%;
+}
+.speed {
+  color: #ffffff;
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.button1 {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 5px;
+}
+.button2 {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #94a3b8;
+  margin-left: 5px;
+}

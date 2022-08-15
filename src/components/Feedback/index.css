@@ -1,0 +1,77 @@
+/* Write your CSS code here. */
+.feedback-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.feedback-card {
+  background-color: #ffffff;
+  border-width: 0px;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+.desc {
+  color: #1e293b;
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-left: 13px;
+  margin-top: 5px;
+}
+.feedback-list-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-left: 0px;
+}
+.emoji-lists {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.buttons {
+  background-color: #ffffff;
+  cursor: pointer;
+  border-width: 0px;
+}
+.image {
+  width: 48px;
+  height: 48px;
+  border-width: 0px;
+}
+
+.love {
+  width: 40px;
+  height: 35px;
+}
+
+.thank {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+
+.thank-desc {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  text-align: center;
+}

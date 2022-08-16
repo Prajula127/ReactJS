@@ -1,0 +1,25 @@
+/* Write your code here. */
+.images-lists {
+  list-style-type: none;
+  margin: 10px;
+  border: 8px;
+}
+
+.img-button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.image {
+  width: 30px;
+  height: 30px;
+}
+
+.image-active {
+  opacity: 1;
+}
+
+.inactive {
+  opacity: 0.5;
+}

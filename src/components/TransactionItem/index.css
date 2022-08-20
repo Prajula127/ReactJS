@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.lists-items {
+  list-style-type: none;
+}
+.info-containers {
+  border: 1px solid #cbd5e1;
+  border-top: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+.types {
+  color: #7e858e;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+.amounts {
+  font-size: 20px;
+}
+.button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.delete {
+  width: 20px;
+  height: 20px;
+}

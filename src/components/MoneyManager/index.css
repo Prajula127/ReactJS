@@ -1,0 +1,112 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.money-manager-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.user-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  width: 100%;
+  padding-left: 20px;
+}
+.user {
+  color: #1e293b;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.welcome {
+  color: #475569;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.sub {
+  color: #0b69ff;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.transaction-details-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+.add-transaction-container {
+  border: 1px solid #d7dfe9;
+  border-radius: 10px;
+  width: 35%;
+  padding: 20px;
+}
+.add-transaction {
+  color: #1e293b;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  color: #7e858e;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-top: 10px;
+}
+.input {
+  width: 80%;
+  padding: 8px;
+  outline: none;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+.option {
+  font-size: 16px;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+.add {
+  border-radius: 5px;
+  padding: 10px;
+  width: 70px;
+  border-width: 0px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  margin-top: 12px;
+}
+.history-details-container {
+  border: 1px solid #d7dfe9;
+  border-radius: 10px;
+  width: 55%;
+  padding: 20px;
+}
+.info-container {
+  border: 1px solid #cbd5e1;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+.titles {
+  color: #1e293b;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.title {
+  color: #ffffff;
+}
+.lists-container {
+  padding-left: 0px;
+  margin-top: 0px;
+}

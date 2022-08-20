@@ -1,0 +1,29 @@
+/* Write your code here. */
+
+.emoji-items {
+  list-style-type: none;
+}
+.emoji-card {
+  background-color: #ffffff30;
+  border-radius: 10px;
+  padding-left: 18px;
+  padding-top: 20px;
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+}
+.emoji-button {
+  border: none;
+  cursor: pointer;
+  background-color: #ffffff30;
+  border-radius: 10px;
+  padding-left: 18px;
+  padding-top: 20px;
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+}
+.emoji-image {
+  width: 100px;
+  height: 100px;
+}

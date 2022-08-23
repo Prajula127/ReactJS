@@ -1,0 +1,30 @@
+.tab-items {
+  list-style-type: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.tab-button {
+  border-bottom: 3px solid #fec653;
+  cursor: pointer;
+  color: #836e43;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  background-color: transparent;
+  width: 100px;
+  padding: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.tab-inactive {
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  background-color: transparent;
+  width: 100px;
+  padding: 10px;
+}

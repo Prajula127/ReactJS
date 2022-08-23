@@ -1,0 +1,15 @@
+.game-items {
+  margin: 10px;
+  list-style-type: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.images {
+  width: 150px;
+  height: 120px;
+}
+.image-button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}

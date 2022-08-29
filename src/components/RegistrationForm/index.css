@@ -1,0 +1,72 @@
+/* Write your CSS code here */
+.register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.registration {
+  color: #ea580c;
+  font-size: 36px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.form-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.name-container {
+  margin-bottom: 8px;
+}
+.label {
+  color: #475569;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.input {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  outline: none;
+  font-family: 'Roboto';
+  padding: 15px 12px 15px 12px;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #ea580c;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  height: 30px;
+  padding: 6px 10px 6px 10px;
+  margin-top: 16px;
+}
+.name-error {
+  color: #ff0b37;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.success {
+  width: 35px;
+  height: 35px;
+}
+.submitted {
+  color: #475569;
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}

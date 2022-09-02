@@ -1,0 +1,11 @@
+/* Write your CSS code here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+}

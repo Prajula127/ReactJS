@@ -114,7 +114,7 @@ class GithubPopularRepos extends Component {
               />
             ))}
           </ul>
-          <div testid="loader">
+          <div>
             <Loader type="ThreeDots" color="#0284c7" height={80} width={80} />
           </div>
         </div>

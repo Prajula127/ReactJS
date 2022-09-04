@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.lists {
+  list-style-type: none;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8ff;
+  border-radius: 12px;
+  padding-top: 20px;
+  width: 20%;
+}
+.icon-container {
+  display: flex;
+  align-items: flex-start;
+}
+.icon {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+}
+.image {
+  width: 30%;
+}
+.name {
+  color: #e73959;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.stars {
+  color: #1e293b;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-top: 0px;
+}
+@media screen and (max-width: 767px) {
+  .name {
+    font-size: 18px;
+  }
+  .stars {
+    font-size: 16px;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+}

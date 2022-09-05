@@ -1,0 +1,94 @@
+/* Write your CSS here */
+.loader {
+  display: flex;
+  justify-content: center;
+}
+.error-img {
+  width: 350px;
+}
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.products-details {
+  display: flex;
+  width: 90%;
+}
+.product-image {
+  width: 35%;
+  height: 35%;
+  margin-right: 10px;
+}
+.product-info-container {
+  margin-left: 10px;
+}
+.product-title {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 700;
+}
+@media screen and (max-width: 767px) {
+  .product-title {
+    font-size: 28px;
+  }
+}
+.product-price {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+}
+@media screen and (max-width: 767px) {
+  .product-price {
+    font-size: 18px;
+  }
+}
+.ratings-info-container {
+  display: flex;
+}
+.rating-card {
+  padding: 8px;
+  margin-right: 10px;
+}
+.total-rating {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+}
+.count {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+}
+.sub {
+  font-weight: normal;
+  margin-left: 10px;
+}
+.product-desc {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.inc-dec-container {
+  display: flex;
+}
+.inc-dec {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  margin-right: 10px;
+}
+.dec {
+  margin-left: 10px;
+}
+.inc-dec-icons {
+  width: 20px;
+  height: 20px;
+}
+.counts {
+  font-size: 20px;
+}

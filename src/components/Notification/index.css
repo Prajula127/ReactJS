@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.notification-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #e5e5e5;
+  width: 50%;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.close {
+  font-size: 20px;
+  color: #475569;
+  margin-right: 25px;
+  margin-top: 45px;
+}

@@ -16,7 +16,7 @@ const PlanetsSlider = props => {
   }
 
   return (
-    <AppContainer>
+    <AppContainer testid="planets">
       <PlanetsContainer>
         <Heading>PLANETS</Heading>
 

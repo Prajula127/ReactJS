@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.prime-video-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #000000;
+  min-height: 100vh;
+}
+.prime-container {
+  width: 100%;
+}
+.logo {
+  width: 100%;
+}
+.movies-container {
+  width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .movies-container {
+    padding: 10px;
+  }
+}
+.heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 15px;
+  }
+}

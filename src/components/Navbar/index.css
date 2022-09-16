@@ -1,0 +1,70 @@
+/* Write your CSS here */
+
+.nav-dark-header {
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.nav-light-header {
+  background-color: #333333;
+  font-family: 'Roboto';
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  justify-content: center;
+}
+.nav-light-links {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  list-style-type: none;
+  margin-right: 15px;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+.menu-list-container {
+  display: flex;
+  align-items: center;
+}
+.nav-links {
+  color: #1e293b;
+  font-size: 25px;
+  font-weight: bold;
+  list-style-type: none;
+  margin-right: 15px;
+}
+.links {
+  text-decoration: none;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.theme {
+  width: 60px;
+  height: 60px;
+}
+
+/*  #000000
+Hex: #ffffff
+Hex: #1e293b
+Hex: #333333
+Hex: #dcdcdc
+Hex: #171f46
+Hex: #334155
+Hex: #64748b
+Hex: #f8fafc */

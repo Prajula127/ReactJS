@@ -1,0 +1,12 @@
+/* Write your CSS here */
+
+.light {
+  color: #1e293b;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.dark {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+}

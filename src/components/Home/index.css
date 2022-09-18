@@ -13,23 +13,17 @@
     margin-top: 40px;
   }
 }
-@media screen and (max-width: 577px) {
+/* @media screen and (max-width: 577px) {
   .home-container {
     margin-top: 30px;
     padding: 10px 0px 0px 20px;
   }
-}
+} */
 .home-card {
   display: flex;
   flex-direction: column;
   width: 50%;
 }
-@media screen and (max-width: 767px) {
-  .home-card {
-    width: 80%;
-  }
-}
-
 .find {
   padding: 10px 20px 10px 20px;
   margin-top: 20px;
@@ -40,11 +34,6 @@
   font-family: 'Roboto';
   font-weight: bold;
 }
-@media screen and (max-width: 767px) {
-  .home-heading {
-    font-size: 25px;
-  }
-}
 .home-desc {
   color: #ffffff;
   font-size: 22px;
@@ -52,27 +41,17 @@
   font-weight: normal;
 }
 @media screen and (max-width: 767px) {
-  .home-desc {
-    font-size: 15px;
+  .home-card {
+    width: 80%;
   }
-  .find {
-    padding: 8px 18px 8px 18px;
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 577px) {
   .home-heading {
-    font-size: 22px;
+    font-size: 23px;
   }
   .home-desc {
     font-size: 12px;
   }
-  .logout-button {
-    padding: 4px 8px 8px 4px;
-    font-size: 10px;
-  }
   .find {
-    padding: 4px 8px 4px 8px;
-    font-size: 10px;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
   }
 }

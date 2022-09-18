@@ -6,11 +6,6 @@
   margin-top: 80px;
 }
 @media screen and (max-width: 767px) {
-  .all-jobs-container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-  }
 }
 .all-jobs-data-container {
   display: flex;
@@ -128,28 +123,22 @@
   font-size: 15px;
   font-family: 'Roboto';
 }
+
 @media screen and (max-width: 767px) {
+  .all-jobs-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
   .profile-image {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
   }
   .name {
-    font-size: 20px;
+    font-size: 18px;
   }
   .bio {
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 577px) {
-  .profile-image {
-    width: 40px;
-    height: 40px;
-  }
-  .name {
-    font-size: 16px;
-  }
-  .bio {
-    font-size: 11px;
+    font-size: 13px;
     margin-bottom: 0px;
   }
   .profile-container {

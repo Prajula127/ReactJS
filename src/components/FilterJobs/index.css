@@ -24,26 +24,15 @@
   width: 14px;
   height: 14px;
 }
+
 @media screen and (max-width: 767px) {
   .type {
-    font-size: 18px;
-  }
-  .labels {
-    font-size: 14px;
-  }
-  .radio {
-    width: 13px;
-    height: 13px;
-  }
-}
-@media screen and (max-width: 577px) {
-  .type {
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 0px;
   }
   .radio {
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
   }
   .labels {
     font-size: 13px;

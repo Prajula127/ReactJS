@@ -11,12 +11,6 @@
   align-items: center;
   width: 80%;
 }
-@media screen and (max-width: 577px) {
-  .nav-header {
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
-}
 .nav-sm-container {
   display: none;
 }
@@ -35,8 +29,8 @@
     display: none;
   }
   .nav-header {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 }
 .nav-link {

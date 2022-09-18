@@ -1,0 +1,41 @@
+/* Write your CSS here */
+
+.cart-summary-container {
+  align-self: flex-end;
+}
+.summary {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: bold;
+}
+.total {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: bold;
+}
+.summary-desc {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.checkout {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .total {
+    font-size: 16px;
+  }
+  .summary {
+    font-size: 16px;
+  }
+  .summary-desc {
+    font-size: 13px;
+  }
+}
+
+/* #0b69ff
+Hex: #171f46
+Hex: #616e7c
+Hex: #ffffff */

@@ -1,0 +1,54 @@
+.jobs-details-container {
+  width: 90%;
+  height: 100%;
+  margin-right: 0px;
+  list-style-type: none;
+  background-color: #272727;
+  padding: 20px;
+  border-radius: 15px;
+}
+.job-list-description {
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.job-list-desc {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+@media screen and (max-width: 767px) {
+  .job-list-description {
+    font-size: 14px;
+  }
+  .jobs-details-container {
+    width: 100%;
+    height: 45%;
+    padding-top: 0px;
+    margin-bottom: 13px;
+  }
+  .icon2 {
+    font-size: 18px;
+  }
+  .infos {
+    font-size: 12px;
+  }
+  .job-list-desc {
+    font-size: 11px;
+  }
+  .logos {
+    width: 40px;
+    height: 40px;
+  }
+  .rating-stars {
+    font-size: 15px;
+  }
+  .role {
+    font-size: 15px;
+  }
+  .job-rating {
+    font-size: 15px;
+  }
+}

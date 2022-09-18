@@ -1,0 +1,12 @@
+@media screen and (max-width: 767px) {
+  .failure-image {
+    width: 250px;
+  }
+  .failure-heading {
+    font-size: 18px;
+  }
+  .failure-desc {
+    font-size: 13px;
+    width: 60%;
+  }
+}

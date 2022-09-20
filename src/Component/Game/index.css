@@ -1,0 +1,141 @@
+.app-container {
+  background-color: #223a5f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  padding-top: 30px;
+}
+.game-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+.game-score-container {
+  border: 4px solid #ffffff;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+}
+.heading {
+  font-size: 24px;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.score-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #223a5f;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 8%;
+  height: 80px;
+}
+.score {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.game-score {
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+.game-lists-container {
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 30%;
+  align-self: center;
+  margin-top: 60px;
+}
+.lists {
+  list-style-type: none;
+}
+.images {
+  width: 200px;
+  height: 200px;
+}
+.close {
+  font-size: 22px;
+  background-color: transparent;
+  align-self: flex-end;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 18px;
+  }
+  .score {
+    font-size: 16px;
+  }
+  .game-score {
+    font-size: 22px;
+  }
+  .score-container {
+    width: 80px;
+  }
+  .game-lists-container {
+    width: 100%;
+  }
+  .images {
+    width: 130px;
+    height: 130px;
+  }
+}
+.rules-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: #ffffff;
+  height: 80%;
+  width: 80%;
+  padding-bottom: 20px;
+  margin: auto;
+}
+.rules {
+  width: 80%;
+  margin: auto;
+}
+.pop {
+  background-color: #ffffff;
+  color: #223a5f;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  padding: 8px 16px 8px 16px;
+  cursor: pointer;
+  border-width: 0px;
+  border-radius: 8px;
+  height: 45px;
+}
+.popup-container {
+  align-self: flex-end;
+  margin: 40px 20px 40px 0px;
+}
+@media screen and (max-width: 767px) {
+  .pop {
+    font-size: 13px;
+    height: 30px;
+  }
+}
+.image-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

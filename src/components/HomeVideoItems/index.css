@@ -1,0 +1,52 @@
+.home-item-list {
+  list-style-type: none;
+  margin: 0px 20px 30px 0px;
+  width: 30%;
+}
+.thumbnail {
+  width: 100%;
+}
+.profile-image-container {
+  display: flex;
+  font-family: 'Roboto';
+}
+.profile-image {
+  width: 42px;
+  height: 42px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.home-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #424242;
+  margin-top: 10px;
+}
+.home-name {
+  font-size: 18px;
+  color: #606060;
+  margin-top: 0px;
+}
+.views-container {
+  display: flex;
+}
+.views {
+  font-size: 16px;
+  color: #475569;
+  margin-top: 0px;
+  margin-right: 15px;
+}
+.dot-container {
+  display: flex;
+  margin-top: 0px;
+}
+.dot {
+  font-size: 22px;
+  color: #475569;
+}
+
+/*     
+    #0f0f0f #f9f9f9 #f8fafc #1e293b #f1f5f9 #475569 #f1f1f1 #181818 #e2e8f0
+ #94a3b8 #4f46e5 #64748b #231f20 #ffffff #212121 #616e7c #3b82f6 #00306e #ebebeb
+  #7e858e #d7dfe9 #cbd5e1 #000000 #ff0b37 #ff0000 #383838 #606060 #909090 #cccccc
+#424242 #313131 #f4f4f4 */

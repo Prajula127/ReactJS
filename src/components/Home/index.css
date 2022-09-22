@@ -1,0 +1,143 @@
+.nxt-watch-container {
+  width: 100%;
+}
+.nxt-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.banner-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  height: 250px;
+}
+.banner-section {
+  display: flex;
+  flex-direction: column;
+}
+.banner-logo {
+  width: 50%;
+}
+.banner-desc {
+  color: #1e293b;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.get-button {
+  border: 1px solid #0f0f0f;
+  border-radius: 5px;
+  padding: 6px 16px 6px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0f0f0f;
+  background-color: transparent;
+  width: 180px;
+  height: 45px;
+}
+.close {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.close-icon {
+  font-size: 18px;
+}
+.nxt-banner-container {
+  width: 100%;
+  width: 80%;
+  background-color: #f8fafc;
+  padding: 20px;
+}
+.banner {
+  background-color: #000000;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  width: 50%;
+  height: 43px;
+  margin-top: 15px;
+}
+.search {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding: 8px 16px 8px 16px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  background-color: transparent;
+}
+.inputs {
+  color: #ffffff;
+}
+.search-button {
+  padding: 8px 16px 8px 16px;
+  border-left: 1px solid #cbd5e1;
+  border-bottom: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  height: 42px;
+  width: 66px;
+  cursor: pointer;
+}
+.home-video-container {
+  display: flex;
+  padding-left: 0px;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  border: 1px solid pink;
+}
+.no-videos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 120px;
+}
+.no-videos {
+  width: 400px;
+}
+.no-search {
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #1e293b;
+}
+.no-search-desc {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #7e858e;
+  margin-top: 0px;
+}
+.retry {
+  padding: 8px 16px 8px 16px;
+  color: #ffffff;
+  background-color: #4f46e5;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  width: 100px;
+  height: 45px;
+  border-width: 0px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+/*     
+    #0f0f0f #f9f9f9 #f8fafc #1e293b #f1f5f9 #475569 #f1f1f1 #181818 #e2e8f0
+ #94a3b8 #4f46e5 #64748b #231f20 #ffffff #212121 #616e7c #3b82f6 #00306e #ebebeb
+  #7e858e #d7dfe9 #cbd5e1 #000000 #ff0b37 #ff0000 #383838 #606060 #909090 #cccccc
+#424242 #313131 #f4f4f4 */

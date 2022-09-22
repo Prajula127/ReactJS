@@ -1,0 +1,89 @@
+.sidebar-container {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 1200px;
+}
+.side {
+  background-color: #424242;
+}
+.lists {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  width: 100%;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #0f0f0f;
+}
+.btns {
+  color: #181818;
+}
+.btn {
+  color: #ffffff;
+}
+.button {
+  color: #231f20;
+  cursor: pointer;
+}
+
+.home-icon {
+  font-size: 22px;
+  color: #0f0f0f;
+  margin-right: 20px;
+}
+.icon2 {
+  color: #ffffff;
+}
+.home-icons {
+  color: #ff0000;
+}
+
+.contact {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #383838;
+}
+.contact2 {
+  color: #ffffff;
+}
+.logos-container {
+  display: flex;
+  align-items: center;
+}
+.contact-container {
+  padding-left: 20px;
+}
+.logos {
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
+}
+.enjoy {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #383838;
+}
+.enjoy2 {
+  color: #ffffff;
+}
+
+/*     
+    #0f0f0f #f9f9f9 #f8fafc #1e293b #f1f5f9 #475569 #f1f1f1 #181818 #e2e8f0
+ #94a3b8 #4f46e5 #64748b #231f20 #ffffff #212121 #616e7c #3b82f6 #00306e #ebebeb
+  #7e858e #d7dfe9 #cbd5e1 #000000 #ff0b37 #ff0000 #383838 #606060 #909090 #cccccc
+#424242 #313131 #f4f4f4 */

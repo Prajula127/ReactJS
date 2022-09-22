@@ -1,0 +1,9 @@
+.trend-item-list {
+  list-style-type: none;
+  margin: 30px;
+  display: flex;
+}
+.thumbnails {
+  width: 30%;
+  margin-right: 15px;
+}

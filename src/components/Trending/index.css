@@ -1,0 +1,65 @@
+.trending-video-container {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.nxt-trend-container {
+  width: 100%;
+  width: 80%;
+  background-color: #f9f9f9;
+}
+.trend2 {
+  background-color: #000000;
+}
+.trending-container {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  background-color: #f1f5f9;
+}
+.trending-container2 {
+  background-color: #313131;
+}
+.trend-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #ffffff;
+}
+.trend-icon2 {
+  background-color: #000000;
+}
+.heading {
+  color: #1e293b;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-left: 15px;
+}
+.heading2 {
+  color: #ffffff;
+}
+.menu-icons {
+  font-size: 30px;
+  color: #606060;
+}
+.menu-icons2 {
+  color: #ff0000;
+}
+.dark {
+  color: #ffffff;
+}
+.light {
+  color: #000000;
+}
+
+/*     
+    #0f0f0f #f9f9f9 #f8fafc #1e293b #f1f5f9 #475569 #f1f1f1 #181818 #e2e8f0
+ #94a3b8 #4f46e5 #64748b #231f20 #ffffff #212121 #616e7c #3b82f6 #00306e #ebebeb
+  #7e858e #d7dfe9 #cbd5e1 #000000 #ff0b37 #ff0000 #383838 #606060 #909090  background-color: #f1f5f9;
+
+#424242 #313131 #f4f4f4 */

@@ -1,0 +1,6 @@
+.gaming-video-container {
+  display: flex;
+  padding-left: 0px;
+  width: 100%;
+  flex-wrap: wrap;
+}

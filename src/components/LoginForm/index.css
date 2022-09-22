@@ -1,0 +1,89 @@
+.login-app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.form-container {
+  box-shadow: 10px 10px 10px 10px #f1f5f9;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 40px;
+  width: 450px;
+}
+
+.logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.logo-login {
+  width: 60%;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+}
+.label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #7e858e;
+}
+.input {
+  font-size: 18px;
+  font-weight: 500;
+  height: 40px;
+  padding: 4px 16px 4px 16px;
+  border-radius: 4px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+  color: #475569;
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.checkbox {
+  width: 18px;
+  height: 18px;
+}
+.label-checkbox {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-left: 6px;
+  color: #231f20;
+}
+.login-button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  height: 43px;
+  border-width: 0px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.error {
+  font-size: 16px;
+  font-family: 'Roboto';
+  align-self: flex-start;
+  color: #ff0000;
+  margin-top: 0px;
+  font-weight: 500;
+}
+
+/*     
+    #0f0f0f #f9f9f9 #f8fafc #1e293b #f1f5f9 #475569 #f1f1f1 #181818 #e2e8f0
+ #94a3b8 #4f46e5 #64748b #231f20 #ffffff #212121 #616e7c #3b82f6 #00306e #ebebeb
+  #7e858e #d7dfe9 #cbd5e1 #000000 #ff0b37 #ff0000 #383838 #606060 #909090 #cccccc
+#424242 #313131 #f4f4f4 */
